@@ -1,1 +1,12 @@
+.add-book {
+  background-color: #1b120f;
+  color: #e6dedd;
+}
 
+.library {
+  background-color: #e6dedd;
+}
+
+.book {
+  background-color: #f89d13;
+}

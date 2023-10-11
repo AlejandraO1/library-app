@@ -7,6 +7,26 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <h1>Library</h1>
+    <div class="new-book">
+      <button id="new-book">New Book</button>
+    </div>
+    <div class="pop-up">
+      <div class="add-book">
+        <form id="form">
+          <h2>New Book</h2>
+          <input type="text" id="title" name="title" placeholder="Title" />
+          <input type="text" id="author" name="author" placeholder="Author" />
+          <input type="text" id="pages" name="pages" placeholder="Pages" />
+          <label>Read: </label>
+          <input type="checkbox" id="read" name="read" value="yes" />
+          <button type="submit" form="form" id="add-book">Add</button>
+        </form>
+      </div>
+    </div>
+    <div class="library">
+      </div>
+    </div>
     <script src="app.js"></script>
   </body>
 </html>
